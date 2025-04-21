@@ -22,7 +22,6 @@ def load_model():
     return model
 
 model = load_model()
-
 class_names = ['actinic keratosis', 'basal cell carcinoma', 'dermatofibroma', 'melanoma',
                'nevus', 'pigmented benign keratosis', 'seborrheic keratosis',
                'squamous cell carcinoma', 'vascular lesion']
